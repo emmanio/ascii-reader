@@ -1,0 +1,8 @@
+{
+  "name": "ascii-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emmanio/ascii-reader.git",
+  "author": "emma-nio <emmanioashley@gmail.com>",
+  "license": "MIT"
+}
