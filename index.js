@@ -7,7 +7,7 @@ const readline = require('readline')
 const data = __dirname + '/data'
 
 function welcomeMessage () {
-  const message = 'Wanna see some dinosaurs?'
+  const message = 'WELCOME'
   console.log(message)
   return message
 }
@@ -29,11 +29,13 @@ function displayList (err, files) {
     input: process.stdin,
     output: process.stdout
   })
-  rl.question('Please select a number from the list then press Enter... \n' + list, (input) => {
+  rl.question('Please select a number from the list then press Enter, press Q at anytime to quit...\n' + list, (input) => {
     rl.close()
     if (err) {
       // eslint-disable-next-line no-console
       console.error(err)
+    } else if (input === 'q') {
+      exit()
     } else {
       let i = Number(input)
       if (i < files.length) {
@@ -57,6 +59,10 @@ function displayFile (err, imageFile) {
     console.log(imageFile)
     getFiles(data, displayList) // displays list again for user to select artwork
   }
+}
+
+function exit () {
+  process.exit()
 }
 
 module.exports = {
