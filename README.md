@@ -1,4 +1,4 @@
-# ascii-reader
+# ascii-reader-dinosaurs
 
 User Stories
 
