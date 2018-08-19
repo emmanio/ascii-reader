@@ -6,6 +6,11 @@
   "author": "emma-nio <emmanioashley@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^23.5.0",
     "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "jest --watch --noStackTrace"
   }
 }
