@@ -7,10 +7,11 @@ const readline = require('readline')
 const data = __dirname + '/data'
 
 function welcomeMessage () {
-  const message = 'Hi There!'
+  const message = 'Wanna see some dinosaurs?
   console.log(message)
   return message
 }
+welcomeMessage()
 
 function start () {
   getFiles(data, displayList)
