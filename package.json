@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/emmanio/ascii-reader.git",
   "author": "emma-nio <emmanioashley@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
 }
