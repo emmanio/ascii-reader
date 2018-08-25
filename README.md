@@ -1,3 +1,3 @@
-# ascii-reader-dinosaurs
+# ascii-reader 🦖
 
-An ascii-reader for your console 🦖
+An ascii-reader for your console
