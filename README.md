@@ -1,6 +1,6 @@
 # ascii-reader
 
-A dino ascii-reader for your command line
+An ascii-reader for your command line
 
 **How to use:**
 
